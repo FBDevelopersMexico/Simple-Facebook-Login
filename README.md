@@ -7,14 +7,16 @@ Sigue los pasos que se muestran y agrega los datos que se piden.
 
 ** Generación de Key Hash **
 
-> Para lograr un uso exitoso del Facebook SDK se debe crear un key hash con los certificados (debug y/o producción)
+Para lograr un uso exitoso del Facebook SDK se debe crear un key hash con los certificados (debug y/o producción)
   La manera como se crean es: 
+    
+  ** MAC OS **
   ... 
-  MAC OS
   keytool -exportcert -alias androiddebugkey -keystore ~/.android/debug.keystore | openssl sha1 -binary | openssl base64
   ...
+  
+  ** Windows **
   ... 
-  Windows:
   keytool -exportcert -alias androiddebugkey -keystore %HOMEPATH%\.android\debug.keystore | openssl sha1 -binary | openssl     base64
   ...
 
