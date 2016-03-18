@@ -21,7 +21,7 @@ Para lograr un uso exitoso del Facebook SDK se debe crear un key hash con los ce
 
 Obteniedo la aplicación en la plataforma se puede tener el App Id el cuál debe de ser cambiado en el archivo values -> strings.xml 
 
-> <string name="facebook_app_id"></string>
+> string name="facebook_app_id"
 
 
 Puedes reemplazar los datos de la aplicación recien creada dentro del proyecto
