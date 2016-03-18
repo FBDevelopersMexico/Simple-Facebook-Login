@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FBLogin</string>
+    <string name="facebook_app_id">1588275404828111</string>
+    <string name="fb_success_login">You are logged into Facebook</string>
+    <string name="fb_error_login">There is an error trying to log in</string>
+    <string name="fb_cancel_login">Log in was canceled</string>
+    <string name="title_activity_fb_user_data">FbUserDataActivity</string>
+    <string name="facebook_image_url">http://graph.facebook.com/%s/picture?type=large</string>
+</resources>

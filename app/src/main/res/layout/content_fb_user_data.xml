@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".fb_user_data.FbUserDataActivity"
+    tools:showIn="@layout/activity_fb_user_data">
+
+
+    <ImageView
+        android:layout_width="@dimen/profile_photo_user_size"
+        android:layout_height="@dimen/profile_photo_user_size"
+        android:layout_margin="@dimen/user_image_margin_top"
+        android:id="@+id/user_image"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginTop="@dimen/user_image_margin_top"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/user_name_padding"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/user_image"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
